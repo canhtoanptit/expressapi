@@ -11,7 +11,7 @@ app.use(bodyParser.urlencoded({ extended: true}))
 app.use(bodyParser.json())
 
 mongoose.Promise = global.Promise
-mongoose.connect('mongodb://192.168.8.202:27017/mydb')
+mongoose.connect('mongodb://localhost:27017/mydb')
 
 var port = 3000
 
